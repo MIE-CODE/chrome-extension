@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "HelpMeOut",
+  "version": "1.0",
+  "description": "Description of your extension",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "iCON32.png",
+      "48": "iCON32.png",
+      "128": "iCON32.png"
+    }
+  },
+  "icons": {
+    "16": "iCON32.png",
+    "48": "iCON32.png",
+    "128": "iCON32.png"
+  },
+  "author": "M'I'E",
+  "permissions": ["scripting", "storage", "webNavigation", "tabs"],
+
+  "host_permissions": []
+}
