@@ -19,7 +19,7 @@ function homePage() {
   const [isMicSelected, SetIsMicSelected] = useState(false);
 
   return (
-    <div>
+    <div className="w-[600px] h-[400px]">
       <ReactMediaRecorder
         screen={isVidSelected}
         audio={isMicSelected}
